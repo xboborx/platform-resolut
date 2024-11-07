@@ -1,7 +1,6 @@
 # Soft dependencies extracted from modules themselves.
 softdep lrw pre: ecb
 softdep xts pre: ecb
-softdep libcrc32c pre: crc32c
 softdep ipmi_msghandler post: ipmi_devintf
 softdep tee_crypto platform:optee
 softdep xt_LOG pre: nf_log_syslog
