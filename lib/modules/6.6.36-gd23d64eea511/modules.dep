@@ -716,8 +716,11 @@ kernel/sound/soc/codecs/snd-soc-lpass-macro-common.ko:
 kernel/sound/soc/codecs/snd-soc-lpass-wsa-macro.ko:
 kernel/sound/soc/codecs/snd-soc-lpass-va-macro.ko: kernel/sound/soc/codecs/snd-soc-lpass-macro-common.ko
 kernel/sound/soc/codecs/snd-soc-simple-mux.ko:
+kernel/sound/soc/generic/snd-soc-simple-card-utils.ko:
+kernel/sound/soc/generic/snd-soc-simple-card.ko: kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
+kernel/sound/soc/generic/snd-soc-audio-graph-card.ko: kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
 kernel/sound/soc/fsl/snd-soc-fsl-audmix.ko:
-kernel/sound/soc/fsl/snd-soc-fsl-asoc-card.ko: kernel/sound/soc/fsl/snd-soc-imx-audmux.ko
+kernel/sound/soc/fsl/snd-soc-fsl-asoc-card.ko: kernel/sound/soc/fsl/snd-soc-imx-audmux.ko kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
 kernel/sound/soc/fsl/snd-soc-fsl-asrc.ko:
 kernel/sound/soc/fsl/snd-soc-fsl-sai.ko: kernel/sound/soc/fsl/snd-soc-fsl-utils.ko kernel/sound/soc/fsl/imx-pcm-dma.ko
 kernel/sound/soc/fsl/snd-soc-fsl-ssi.ko: kernel/sound/soc/fsl/imx-pcm-dma.ko
@@ -739,8 +742,8 @@ kernel/sound/soc/fsl/snd-soc-imx-spdif.ko:
 kernel/sound/soc/fsl/snd-soc-imx-audmix.ko:
 kernel/sound/soc/fsl/snd-soc-imx-hdmi.ko:
 kernel/sound/soc/fsl/snd-soc-imx-rpmsg.ko:
-kernel/sound/soc/fsl/snd-soc-imx-card.ko:
-kernel/sound/soc/fsl/snd-soc-imx-pcm512x.ko:
+kernel/sound/soc/fsl/snd-soc-imx-card.ko: kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
+kernel/sound/soc/fsl/snd-soc-imx-pcm512x.ko: kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
 kernel/sound/soc/sof/imx/snd-sof-imx8.ko: kernel/sound/soc/sof/xtensa/snd-sof-xtensa-dsp.ko kernel/sound/soc/sof/snd-sof-of.ko kernel/sound/soc/sof/imx/imx-common.ko kernel/sound/soc/sof/snd-sof.ko kernel/sound/soc/sof/snd-sof-utils.ko
 kernel/sound/soc/sof/imx/snd-sof-imx8m.ko: kernel/sound/soc/sof/xtensa/snd-sof-xtensa-dsp.ko kernel/sound/soc/sof/snd-sof-of.ko kernel/sound/soc/sof/imx/imx-common.ko kernel/sound/soc/sof/snd-sof.ko kernel/sound/soc/sof/snd-sof-utils.ko
 kernel/sound/soc/sof/imx/snd-sof-imx8ulp.ko: kernel/sound/soc/sof/xtensa/snd-sof-xtensa-dsp.ko kernel/sound/soc/sof/snd-sof-of.ko kernel/sound/soc/sof/imx/imx-common.ko kernel/sound/soc/sof/snd-sof.ko kernel/sound/soc/sof/snd-sof-utils.ko

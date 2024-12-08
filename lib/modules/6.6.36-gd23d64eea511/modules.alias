@@ -4681,6 +4681,16 @@ alias of:N*T*Cqcom,sc7280-lpass-va-macroC* snd_soc_lpass_va_macro
 alias of:N*T*Cqcom,sc7280-lpass-va-macro snd_soc_lpass_va_macro
 alias of:N*T*Csimple-audio-muxC* snd_soc_simple_mux
 alias of:N*T*Csimple-audio-mux snd_soc_simple_mux
+alias platform:asoc-simple-card snd_soc_simple_card
+alias of:N*T*Csimple-scu-audio-cardC* snd_soc_simple_card
+alias of:N*T*Csimple-scu-audio-card snd_soc_simple_card
+alias of:N*T*Csimple-audio-cardC* snd_soc_simple_card
+alias of:N*T*Csimple-audio-card snd_soc_simple_card
+alias platform:asoc-audio-graph-card snd_soc_audio_graph_card
+alias of:N*T*Caudio-graph-scu-cardC* snd_soc_audio_graph_card
+alias of:N*T*Caudio-graph-scu-card snd_soc_audio_graph_card
+alias of:N*T*Caudio-graph-cardC* snd_soc_audio_graph_card
+alias of:N*T*Caudio-graph-card snd_soc_audio_graph_card
 alias platform:fsl-audmix snd_soc_fsl_audmix
 alias of:N*T*Cfsl,imx8qm-audmixC* snd_soc_fsl_audmix
 alias of:N*T*Cfsl,imx8qm-audmix snd_soc_fsl_audmix

@@ -929,9 +929,6 @@ kernel/sound/soc/codecs/snd-soc-cs42xx8.ko
 kernel/sound/soc/codecs/snd-soc-cs42xx8-i2c.ko
 kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
 kernel/sound/soc/codecs/snd-soc-wm8524.ko
-kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
-kernel/sound/soc/generic/snd-soc-simple-card.ko
-kernel/sound/soc/generic/snd-soc-audio-graph-card.ko
 kernel/sound/virtio/virtio_snd.ko
 kernel/net/core/selftests.ko
 kernel/net/core/failover.ko

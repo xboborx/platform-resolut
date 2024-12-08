@@ -41,6 +41,7 @@ alias symbol:ox03c10_ctrl_handler_get ox03c10
 alias symbol:macvlan_dellink macvlan
 alias symbol:dw_spi_resume_host spi_dw
 alias symbol:hisi_qm_regs_debugfs_init hisi_qm
+alias symbol:asoc_simple_startup snd_soc_simple_card_utils
 alias symbol:can_send can
 alias symbol:sof_pcm_dai_link_fixup snd_sof
 alias symbol:mlx4_is_eq_shared mlx4_core
@@ -150,6 +151,7 @@ alias symbol:__cast6_setkey cast6_generic
 alias symbol:wm8994_irq_init wm8994
 alias symbol:drm_gem_vram_create drm_vram_helper
 alias symbol:mlx5_core_dealloc_transport_domain mlx5_core
+alias symbol:asoc_graph_is_ports0 snd_soc_simple_card_utils
 alias symbol:st_gyro_get_settings st_gyro
 alias symbol:bcm_phy_ack_intr bcm_phy_lib
 alias symbol:fxls8962af_pm_ops fxls8962af_core
@@ -165,6 +167,7 @@ alias symbol:snd_sof_load_firmware_raw snd_sof
 alias symbol:caam_blob_gen_exit caam_jr
 alias symbol:poly1305_core_emit libpoly1305
 alias symbol:ttm_bo_vm_dummy_page ttm
+alias symbol:asoc_simple_parse_convert snd_soc_simple_card_utils
 alias symbol:dm_rh_dec dm_region_hash
 alias symbol:sdw_find_row_index soundwire_bus
 alias symbol:sdw_compare_devid soundwire_bus
@@ -184,6 +187,7 @@ alias symbol:mlx4_mtt_cleanup mlx4_core
 alias symbol:ip_tunnel_encap_del_ops ip_tunnel
 alias symbol:serpent_setkey serpent_generic
 alias symbol:ttm_bo_unmap_virtual ttm
+alias symbol:asoc_simple_parse_widgets snd_soc_simple_card_utils
 alias symbol:dm_io_client_destroy dm_mod
 alias symbol:lg2160_attach lg2160
 alias symbol:tap_del_queues tap
@@ -303,6 +307,7 @@ alias symbol:smsc_phy_set_tunable smsc
 alias symbol:drm_sched_fini gpu_sched
 alias symbol:wm_hubs_vmid_ena snd_soc_wm_hubs
 alias symbol:i2c_hid_core_probe i2c_hid
+alias symbol:asoc_simple_init_aux_jacks snd_soc_simple_card_utils
 alias symbol:isl6423_attach isl6423
 alias symbol:crypto_engine_register_skcipher crypto_engine
 alias symbol:slim_stream_enable slimbus
@@ -398,6 +403,7 @@ alias symbol:wl1271_acx_init_mem_config wlcore
 alias symbol:ts2020_attach ts2020
 alias symbol:mlx5_query_port_oper_mtu mlx5_core
 alias symbol:caam_dump_sg error
+alias symbol:asoc_simple_hw_params snd_soc_simple_card_utils
 alias symbol:smsc_phy_probe smsc
 alias symbol:can_proto_unregister can
 alias symbol:crypto_engine_register_aeads crypto_engine
@@ -431,6 +437,7 @@ alias symbol:mlx4_unicast_detach mlx4_core
 alias symbol:sdw_write soundwire_bus
 alias symbol:ttm_bo_mem_space ttm
 alias symbol:max96717_set_lanes_no max96717
+alias symbol:asoc_simple_parse_clk snd_soc_simple_card_utils
 alias symbol:ipmi_get_smi_info ipmi_msghandler
 alias symbol:dm_rh_region_context dm_region_hash
 alias symbol:flow_offload_teardown nf_flow_table
@@ -540,6 +547,7 @@ alias symbol:mlx4_xrcd_free mlx4_core
 alias symbol:pcm3168a_remove snd_soc_pcm3168a
 alias symbol:can_rx_register can
 alias symbol:crypto_engine_register_ahash crypto_engine
+alias symbol:asoc_simple_be_hw_params_fixup snd_soc_simple_card_utils
 alias symbol:cast_s2 cast_common
 alias symbol:dm_register_target dm_mod
 alias symbol:max96717_csi_port_en max96717
@@ -577,6 +585,7 @@ alias symbol:wcd_mbhc_set_hph_type snd_soc_wcd_mbhc
 alias symbol:mlx5_packet_reformat_alloc mlx5_core
 alias symbol:can_free_echo_skb can_dev
 alias symbol:ttm_bo_vm_close ttm
+alias symbol:asoc_simple_parse_link_direction snd_soc_simple_card_utils
 alias symbol:fuse_abort_conn fuse
 alias symbol:mlx5_eswitch_get_total_vports mlx5_core
 alias symbol:hisi_qm_wait_task_finish hisi_qm
@@ -666,11 +675,13 @@ alias symbol:ttm_pool_init ttm
 alias symbol:ttm_resource_init ttm
 alias symbol:dsa_unregister_switch dsa_core
 alias symbol:wlcore_event_beacon_loss wlcore
+alias symbol:asoc_simple_remove snd_soc_simple_card_utils
 alias symbol:alloc_canfd_skb can_dev
 alias symbol:mlx5_query_hca_vport_node_guid mlx5_core
 alias symbol:dib3000mc_pid_control dib3000mc
 alias symbol:devm_cci_regmap_init_i2c v4l2_cci
 alias symbol:cros_ec_sensors_core_init cros_ec_sensors_core
+alias symbol:asoc_graph_card_probe snd_soc_simple_card_utils
 alias symbol:nci_recv_frame nci
 alias symbol:nfc_tm_data_received nfc
 alias symbol:stv0900_attach stv0900
@@ -678,6 +689,7 @@ alias symbol:rc_keyup rc_core
 alias symbol:snd_sof_load_firmware_memcpy snd_sof
 alias symbol:mlx4_get_cpu_rmap mlx4_core
 alias symbol:mlx5_core_query_cq mlx5_core
+alias symbol:asoc_simple_canonicalize_platform snd_soc_simple_card_utils
 alias symbol:ipmi_get_my_LUN ipmi_msghandler
 alias symbol:btrtl_shutdown_realtek btrtl
 alias symbol:mdio_set_flag mdio
@@ -899,6 +911,7 @@ alias symbol:mlx4_counter_alloc mlx4_core
 alias symbol:raid6_empty_zero_page raid6_pq
 alias symbol:to_drm_sched_fence gpu_sched
 alias symbol:drm_sched_resubmit_jobs gpu_sched
+alias symbol:asoc_simple_is_convert_required snd_soc_simple_card_utils
 alias symbol:ascot2e_attach ascot2e
 alias symbol:mlx4_phys_to_slaves_pport_actv mlx4_core
 alias symbol:ip_vs_proto_data_get ip_vs
@@ -1033,6 +1046,7 @@ alias symbol:mlx4_register_mac mlx4_core
 alias symbol:md_start md_mod
 alias symbol:nci_to_errno nci
 alias symbol:sm_keystore_cover_key caam_jr
+alias symbol:asoc_simple_canonicalize_cpu snd_soc_simple_card_utils
 alias symbol:dm_hold dm_mod
 alias symbol:slot_dealloc caam_jr
 alias symbol:fc0013_attach fc0013
@@ -1059,6 +1073,7 @@ alias symbol:dw_spi_set_cs spi_dw
 alias symbol:af_alg_register_type af_alg
 alias symbol:mlx5_lag_mode_is_hash mlx5_core
 alias symbol:rl6231_get_clk_info snd_soc_rl6231
+alias symbol:asoc_simple_init_priv snd_soc_simple_card_utils
 alias symbol:dsa_register_switch dsa_core
 alias symbol:bcm_phy_cable_test_start bcm_phy_lib
 alias symbol:sm_keystore_slot_export caam_jr
@@ -1077,6 +1092,7 @@ alias symbol:rc_free_device rc_core
 alias symbol:wlcore_get_native_channel_type wlcore
 alias symbol:drm_sched_entity_destroy gpu_sched
 alias symbol:ipmi_smi_msg_received ipmi_msghandler
+alias symbol:asoc_simple_parse_daifmt snd_soc_simple_card_utils
 alias symbol:fpga_bridge_put fpga_bridge
 alias symbol:btrtl_download_firmware btrtl
 alias symbol:gnss_register_device gnss
@@ -1097,6 +1113,7 @@ alias symbol:v4l2_vp9_adapt_noncoef_probs v4l2_vp9
 alias symbol:generate_black_key caam_jr
 alias symbol:ip_tunnel_delete_nets ip_tunnel
 alias symbol:fpga_region_unregister fpga_region
+alias symbol:asoc_simple_parse_pin_switches snd_soc_simple_card_utils
 alias symbol:mlx4_qp_to_ready mlx4_core
 alias symbol:snd_sof_runtime_resume snd_sof
 alias symbol:bcm_phy_read_exp bcm_phy_lib
@@ -1118,6 +1135,7 @@ alias symbol:nci_send_cmd nci
 alias symbol:pcm512x_regmap snd_soc_pcm512x
 alias symbol:snd_sof_debugfs_add_region_item_iomem snd_sof
 alias symbol:btintel_secure_send_result btintel
+alias symbol:audio_graph_parse_of snd_soc_audio_graph_card
 alias symbol:devm_gpio_regmap_register gpio_regmap
 alias symbol:mlx4_ALLOCATE_VPP_set mlx4_core
 alias symbol:mlx4_srq_free mlx4_core
@@ -1126,6 +1144,7 @@ alias symbol:tda8083_attach tda8083
 alias symbol:mt312_attach mt312
 alias symbol:nfc_find_se nfc
 alias symbol:alloc_can_err_skb can_dev
+alias symbol:asoc_simple_parse_card_name snd_soc_simple_card_utils
 alias symbol:cnstr_shdsc_xts_skcipher_decap caamalg_desc
 alias symbol:mlx5_core_create_tis mlx5_core
 alias symbol:btintel_send_intel_reset btintel
@@ -1165,6 +1184,7 @@ alias symbol:caam_jr_free caam_jr
 alias symbol:mlx5_destroy_flow_group mlx5_core
 alias symbol:mlx5_eswitch_get_core_dev mlx5_core
 alias symbol:xor_blocks xor
+alias symbol:asoc_simple_set_dailink_name snd_soc_simple_card_utils
 alias symbol:usb_wwan_suspend usb_wwan
 alias symbol:mlx5_query_port_admin_status mlx5_core
 alias symbol:nf_flow_table_cleanup nf_flow_table
@@ -1227,11 +1247,13 @@ alias symbol:mlx4_qp_remove mlx4_core
 alias symbol:caam_dpaa2 caam
 alias symbol:fsl_asrc_component snd_soc_fsl_asrc
 alias symbol:ip_vs_conn_put ip_vs
+alias symbol:asoc_simple_init_jack snd_soc_simple_card_utils
 alias symbol:__slim_driver_register slimbus
 alias symbol:dsa_flush_workqueue dsa_core
 alias symbol:crypto_engine_unregister_aeads crypto_engine
 alias symbol:drx39xxj_attach drx39xyj
 alias symbol:neon_aes_ecb_encrypt aes_neon_blk
+alias symbol:asoc_simple_parse_routing snd_soc_simple_card_utils
 alias symbol:bcm_phy_cable_test_start_rdb bcm_phy_lib
 alias symbol:ir_raw_event_store_edge rc_core
 alias symbol:ttm_bo_wait_ctx ttm
@@ -1501,6 +1523,7 @@ alias symbol:ix2505v_attach ix2505v
 alias symbol:m88rs2000_attach m88rs2000
 alias symbol:mlx5_rl_remove_rate_raw mlx5_core
 alias symbol:wlcore_disable_interrupts wlcore
+alias symbol:asoc_simple_parse_tdm_width_map snd_soc_simple_card_utils
 alias symbol:nci_core_init nci
 alias symbol:nxt6000_attach nxt6000
 alias symbol:crypto_transfer_aead_request_to_engine crypto_engine
@@ -1624,6 +1647,7 @@ alias symbol:sm_keystore_slot_dealloc caam_jr
 alias symbol:__devm_regmap_init_spmi_ext regmap_spmi
 alias symbol:can_rx_offload_add_manual can_dev
 alias symbol:dm_noflush_suspending dm_mod
+alias symbol:asoc_simple_dai_init snd_soc_simple_card_utils
 alias symbol:neon_aes_xts_encrypt aes_neon_blk
 alias symbol:__serpent_decrypt serpent_generic
 alias symbol:uacce_register uacce
@@ -1697,6 +1721,7 @@ alias symbol:nfc_target_lost nfc
 alias symbol:cci_read v4l2_cci
 alias symbol:mlx5_frag_buf_alloc_node mlx5_core
 alias symbol:ttm_resource_manager_create_debugfs ttm
+alias symbol:asoc_graph_parse_dai snd_soc_simple_card_utils
 alias symbol:key_type_trusted trusted
 alias symbol:ox03c10_v4l2_controls_init ox03c10
 alias symbol:i2c_hid_core_shutdown i2c_hid
@@ -1822,6 +1847,7 @@ alias symbol:mlx4_query_diag_counters mlx4_core
 alias symbol:dsa_devlink_region_create dsa_core
 alias symbol:s5h1420_get_tuner_i2c_adapter s5h1420
 alias symbol:nf_send_unreach6 nf_reject_ipv6
+alias symbol:asoc_simple_clean_reference snd_soc_simple_card_utils
 alias symbol:mlx5_mpfs_add_mac mlx5_core
 alias symbol:sof_io_read snd_sof
 alias symbol:ip_vs_scheduler_err ip_vs
@@ -1874,6 +1900,7 @@ alias symbol:pcm512x_pm_ops snd_soc_pcm512x
 alias symbol:is_valid_header_conf caam_jr
 alias symbol:smsc_phy_config_intr smsc
 alias symbol:drm_sched_entity_fini gpu_sched
+alias symbol:asoc_simple_shutdown snd_soc_simple_card_utils
 alias symbol:nci_send_frame nci
 alias symbol:led_mc_calc_color_components led_class_multicolor
 alias symbol:led_classdev_multicolor_unregister led_class_multicolor
